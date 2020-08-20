@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DTApp</string>
+<!--
+    <string name="app_id_label">App Id</string>
+    <string name="product_description">Product Description</string>
+-->
+    <string name="appId_label">App Id</string>
+    <string name="averageRatingImageURL_label">AverageRatingImageURL</string>
+    <string name="bidRate_label">BidRate</string>
+    <string name="billingTypeId_label">BillingTypeId</string>
+    <string name="callToAction_label">CallToAction</string>
+    <string name="campaignDisplayOrder_label">CampaignDisplayOrder</string>
+    <string name="campaignId_label">CampaignId</string>
+    <string name="campaignTypeId_label">CampaignTypeId</string>
+    <string name="categoryName_label">CategoryName</string>
+    <string name="clickProxyURL_label">ClickProxyURL</string>
+    <string name="creativeId_label">CreativeId</string>
+<!--
+    <string name="externalMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    -->
+    <string name="homeScreen_label">HomeScreen</string>
+    <string name="impressionTrackingURL_label">ImpressionTrackingURL</string>
+    <string name="isRandomPick_label">IsRandomPick</string>
+    <string name="numberOfRatings_label">NumberOfRatings</string>
+    <string name="productDescription_label">ProductDescription</string>
+    <string name="productId_label">ProductId</string>
+    <string name="productName_label">ProductName</string>
+    <string name="productThumbnail_label">ProductThumbnail</string>
+    <string name="rating_label">Rating</string>
+    <string name="numberOfDownloads_label">NumberOfDownloads</string>
+    <string name="tstiEligible_label">tstiEligible</string>
+    <string name="stiEnabled_label">stiEnabled</string>
+</resources>

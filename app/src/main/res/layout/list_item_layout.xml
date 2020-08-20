@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="dataContext"
+            type="com.benware.dtapp.model.AdItem2" />
+        <variable
+            name="itemClickListener"
+            type="com.benware.dtapp.ui.CustomClickListener" />
+    </data>
+<!--
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> itemClickListener.itemClicked(dataContext)}"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@android:drawable/sym_contact_card"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/appId"
+                    style="@style/Headline.Bold"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="5dp"
+                    android:text="@{dataContext.appId}"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    app:layout_constraintTop_toTopOf="@+id/image"
+                    app:layout_constraintStart_toEndOf="@+id/image"
+                    app:layout_constraintEnd_toStartOf="@+id/rating"
+                    tools:text="App Id this is the long test of a text line to see what"/>
+
+                <TextView
+                    android:id="@+id/rating"
+                    style="@style/Headline.Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="5dp"
+                    android:text="@{dataContext.rating}"
+                    app:layout_constraintTop_toTopOf="@+id/appId"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:text="5.0"/>
+
+                <TextView
+                    android:id="@+id/productDescription"
+                    style="@style/Subhead.Black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="3"
+                    android:layout_marginEnd="5dp"
+                    android:text="@{dataContext.productDescription}"
+                    app:layout_constraintTop_toBottomOf="@+id/appId"
+                    app:layout_constraintStart_toStartOf="@+id/appId"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:text="Description"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+<!--
+    </androidx.constraintlayout.widget.ConstraintLayout>
+-->
+</layout>

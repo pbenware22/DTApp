@@ -1,0 +1,193 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Text Appearance Styles-->
+    <style name="Title2">
+        <item name="android:textSize">@dimen/text_size_title2</item>
+    </style>
+    <style name="Title2.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Title3">
+        <item name="android:textSize">@dimen/text_size_title3</item>
+    </style>
+    <style name="Title3.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Title3.Bold.DarkColor">
+        <item name="android:textColor">@color/dark_color</item>
+    </style>
+    <style name="Title3.DarkColor">
+        <item name="android:textColor">@color/dark_color</item>
+    </style>
+    <style name="Title3.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Headline">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+    </style>
+    <style name="Headline.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Headline.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Headline.Bold.DarkColor">
+        <item name="android:textColor">@color/dark_color</item>
+    </style>
+    <style name="Headline.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Headline.Medium.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Headline.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Headline.SecColor">
+        <item name="android:textColor">@color/sec_color</item>
+    </style>
+    <style name="Headline.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Callout">
+        <item name="android:textSize">@dimen/text_size_callout</item>
+    </style>
+    <style name="Callout.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Callout.Bold.SecColor">
+        <item name="android:textColor">@color/sec_color</item>
+    </style>
+    <style name="Callout.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Callout.DarkColor">
+        <item name="android:textColor">@color/dark_color</item>
+    </style>
+    <style name="Callout.DarkColor.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Callout.ErrorColor">
+        <item name="android:textColor">@color/error_color</item>
+    </style>
+    <style name="Callout.SecColor">
+        <item name="android:textColor">@color/sec_color</item>
+    </style>
+    <style name="Callout.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Caption1">
+        <item name="android:textSize">@dimen/text_size_caption1</item>
+    </style>
+    <style name="Caption1.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Caption1.DarkColor">
+        <item name="android:textColor">@color/dark_color</item>
+    </style>
+    <style name="Caption1.DarkColor.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Caption1.ErrorColor">
+        <item name="android:textColor">@color/error_color</item>
+    </style>
+    <style name="Caption1.SecColor">
+        <item name="android:textColor">@color/sec_color</item>
+    </style>
+    <style name="Caption1.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Caption1.White60">
+        <item name="android:textColor">@color/white_60</item>
+    </style>
+
+    <style name="Caption2">
+        <item name="android:textSize">@dimen/text_size_caption2</item>
+    </style>
+    <style name="Caption2.DarkColor">
+        <item name="android:textColor">@color/dark_color</item>
+    </style>
+    <style name="Caption2.DarkColor.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Caption2.ErrorColor">
+        <item name="android:textColor">@color/error_color</item>
+    </style>
+    <style name="Caption2.SecColor">
+        <item name="android:textColor">@color/sec_color</item>
+    </style>
+    <style name="Subhead">
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+    </style>
+    <style name="Subhead.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Subhead.DarkColor">
+        <item name="android:textColor">@color/dark_color</item>
+    </style>
+    <style name="Subhead.SecColor">
+        <item name="android:textColor">@color/sec_color</item>
+    </style>
+    <style name="Subhead.LightGreyColor">
+        <item name="android:textColor">@color/light_grey</item>
+    </style>
+    <style name="Subhead.SpotColor">
+        <item name="android:textColor">@color/spot_color</item>
+    </style>
+    <style name="Subhead.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Subhead.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Subhead2">
+        <item name="android:textSize">@dimen/text_size_subhead2</item>
+    </style>
+    <style name="Subhead2.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Subhead2.ErrorColor">
+        <item name="android:textColor">@color/error_color</item>
+    </style>
+    <style name="Subhead2.SecColor">
+        <item name="android:textColor">@color/sec_color</item>
+    </style>
+    <style name="Subhead2.SpotColor2">
+        <item name="android:textColor">@color/spot_color_2</item>
+    </style>
+
+    <style name="Footnote">
+        <item name="android:textSize">@dimen/text_size_footnote</item>
+    </style>
+    <style name="Footnote.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Footnote.DarkColor">
+        <item name="android:textColor">@color/dark_color</item>
+    </style>
+    <style name="Footnote.DarkColor.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Footnote.ErrorColor">
+        <item name="android:textColor">@color/error_color</item>
+    </style>
+    <style name="Footnote.SecColor">
+        <item name="android:textColor">@color/sec_color</item>
+    </style>
+    <style name="Footnote.SpotColor">
+        <item name="android:textColor">@color/spot_color</item>
+    </style>
+
+</resources>

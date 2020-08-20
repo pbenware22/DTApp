@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Custom Text Dimensions -->
+    <dimen name="text_size_title2">22sp</dimen>
+    <dimen name="text_size_title3">20sp</dimen>
+    <dimen name="text_size_headline">17sp</dimen>
+    <dimen name="text_size_callout">16sp</dimen>
+    <dimen name="text_size_subhead">15sp</dimen>
+    <dimen name="text_size_subhead2">14sp</dimen>
+    <dimen name="text_size_footnote">13sp</dimen>
+    <dimen name="text_size_caption1">12sp</dimen>
+    <dimen name="text_size_caption2">11sp</dimen>
+
+</resources>
